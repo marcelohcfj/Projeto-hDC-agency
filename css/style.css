@@ -21,13 +21,13 @@ header, .navbar {
     background-color: #353d41;
 }
 
-nav.container {
+#nav-container {
     padding-top: 0;
     padding-bottom: 0;
 }
 
 #logo {
-    width: 75px;
+    width:  80px;
 }
 
 .navbar-brand {
@@ -44,4 +44,17 @@ nav.container {
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 1rem .8rem;
+}
+
+/* slider */
+
+.container-fluid {
+    padding: 0;
+}
+#mainslider .carousel-inner, #mainslider .carousel-item {
+height: 90vh;
+}
+
+#mainslider .carousel-caption {
+    top: 30%;
 }
