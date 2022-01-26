@@ -16,6 +16,10 @@ p, li {
     font-size: 14px;
 }
 
+#ol {
+    max-height: 0%;
+}
+
 /* Barra de Navegação */
 header, .navbar {
     background-color: #353d41;
@@ -27,10 +31,10 @@ header, .navbar {
 }
 
 #logo {
-    width:  80px;
+    width:  75px;
 }
 
-.navbar-brand {
+.navbar-brand  {
     padding: 0;
     color: #fff;
 }
@@ -52,7 +56,7 @@ header, .navbar {
     padding: 0;
 }
 #mainslider .carousel-inner, #mainslider .carousel-item {
-height: 90vh;
+height: 80vh;
 }
 
 #mainslider .carousel-caption {
